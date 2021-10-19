@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp8", "ConsoleApp8.csproj", "{82683912-2BD9-45F7-8C1D-FA9233373FC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp8", "ConsoleApp8.csproj", "{82683912-2BD9-45F7-8C1D-FA9233373FC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp9", "..\ConsoleApp9\ConsoleApp9.csproj", "{BAF47A22-B22A-4E53-8FFF-4BBBDAA11268}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp9", "..\ConsoleApp9\ConsoleApp9.csproj", "{BAF47A22-B22A-4E53-8FFF-4BBBDAA11268}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp10", "..\ConsoleApp10\ConsoleApp10.csproj", "{45EB0AD3-CFBD-411C-B1E4-79EFCBC14467}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{B414189A-BB59-4542-9683-98270643009B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +32,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{82683912-2BD9-45F7-8C1D-FA9233373FC6} = {B414189A-BB59-4542-9683-98270643009B}
+		{BAF47A22-B22A-4E53-8FFF-4BBBDAA11268} = {B414189A-BB59-4542-9683-98270643009B}
+		{45EB0AD3-CFBD-411C-B1E4-79EFCBC14467} = {B414189A-BB59-4542-9683-98270643009B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F15E3EF1-6E27-4276-A931-C8823FCCF6D1}
